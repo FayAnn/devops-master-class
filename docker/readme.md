@@ -6,11 +6,23 @@
 
 ## Steps
 - Step 01 - Docker and DevOps - Installation and Introduction
+
 - Step 02 - Your First Docker Usecase
+docker run -p 5000:5000 in28min/hello-world-python:0.0.1.RELEASE //downloads a repo from docker hub: in browser, localhost:5000
+
 - Step 03 - Important Docker Concepts - Registry, Repository, Tag, Image and Container
+
 - Step 04 - Playing with Docker Images - Java, JavaScript and Python
+
 - Step 05 - Playing with Docker - Detached Mode and Logs
+docker run -d -p 5000:5000 in28min/hello-world-nodejs:0.0.1.RELEASE // launch a container in a detached mode
+docker logs c2ba //
+
 - Step 06 - Playing with Docker Images and Containers
+docker images //lists all images in local machine
+docker pull mysql //downloads latest mysql image from dockerhub to local machine but will not runs (install)
+docker search mysql //list available on docker hub
+
 - Step 07 - Understanding Docker Architecture - Docker Client, Docker Engine
 - Step 08 - Understanding Docker Popularity - My 3 Top Reasons
 - Step 09 - Learning Docker Images - Commands
